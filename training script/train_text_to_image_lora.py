@@ -119,7 +119,7 @@ def parse_args():
     parser.add_argument(
         "--train_data_dir",
         type=str,
-        default='D:/ddpm/celeba/',
+        default='../dataset/celeba/',
         help=(
             "A folder containing the training data. Folder contents must follow the structure described in"
             " https://huggingface.co/docs/datasets/image_dataset#imagefolder. In particular, a `metadata.jsonl` file"
@@ -366,7 +366,7 @@ def parse_args():
 
 
 DATASET_NAME_MAPPING = {
-    "D:/ddpm/celeba/": ("image", "text"),
+    "../dataset/celeba/": ("image", "text"),
 }
 
 
@@ -808,9 +808,9 @@ def main():
                 avg_loss = accelerator.gather(loss.repeat(args.train_batch_size)).mean()
                 train_loss += avg_loss.item() / args.gradient_accumulation_steps
 
-                f = open('D:/ddpm/losses/losses.txt','a')
-                f.write(str(epoch)+','+str(float(loss))+'\n')
-                f.close()
+                # f = open('D:/ddpm/losses/losses.txt','a')
+                # f.write(str(epoch)+','+str(float(loss))+'\n')
+                # f.close()
 
                 # Backpropagate
                 accelerator.backward(loss)
@@ -889,8 +889,8 @@ def main():
                 now = datetime.now()
                 # dd/mm/YY H:M:S
                 dt_string = now.strftime("%d/%m/%Y %H:%M:%S").replace('/','-').replace(':','-')
-                for Img in images:
-                    Img.save('D:/ddpm/output images/'+dt_string+'.png')
+                # for Img in images:
+                #     Img.save('D:/ddpm/output images/'+dt_string+'.png')
 
                 for tracker in accelerator.trackers:
                     if tracker.name == "tensorboard":
