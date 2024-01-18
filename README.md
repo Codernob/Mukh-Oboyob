@@ -1,7 +1,7 @@
 # Mukh-Oboyob
 Official Implementation of the IJACSA paper : Mukh-Oboyob: Stable Diffusion and BanglaBERT enhanced Bangla Text-to-Face Synthesis
 
-# Environment Setup
+## Environment Setup
 Run the following commands on your anaconda environment.
 ```
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
@@ -10,7 +10,7 @@ pip install transformers==4.29.2
 pip install matplotlib==3.7.2
 ```
 
-# Library Modifications
+## Library Modifications
 
 1. I modified the stable diffusion pipeline to load the `BanglaBERT`` text encoder along with setting the max sequence length to 150 (reason explained in my paper). So you have to take the file from
 ```
@@ -41,11 +41,11 @@ with
 Codernob\Mukh-Oboyob\library codes\safety_checker.py
 ```
 
-# Inference
+## Inference
 
 Now you should be able to run `Codernob\Mukh-Oboyob\inference\sample inference.ipynb`
 
-
+## Citation
 If you use my code in your work, please cite my paper.
 
 ```
