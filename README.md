@@ -10,7 +10,7 @@ International Journal of Advanced Computer Science and Applications(IJACSA), 14(
 http://dx.doi.org/10.14569/IJACSA.2023.01411142
 ```
 # Usage
-LoRA trained models are uploaded to [Hugging Face](https://huggingface.co/gr33nr1ng3r/Mukh-Oboyob).
+LoRA trained model is uploaded to [Hugging Face](https://huggingface.co/gr33nr1ng3r/Mukh-Oboyob).
 To use that
 ```py
 from diffusers import DiffusionPipeline
