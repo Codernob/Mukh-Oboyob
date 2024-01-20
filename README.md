@@ -45,18 +45,9 @@ Codernob\Mukh-Oboyob\library codes\safety_checker.py
 
 Now you should be able to run `Codernob\Mukh-Oboyob\inference\sample inference.ipynb`
 
-## Citation
-If you use my code in your work, please cite my paper.
-
-```
-Aloke Kumar Saha, Noor Mairukh Khan Arnob, Nakiba Nuren Rahman, Maria Haque, Shah Murtaza Rashid Al Masud and Rashik Rahman,
-“Mukh-Oboyob: Stable Diffusion and BanglaBERT enhanced Bangla Text-to-Face Synthesis”
-International Journal of Advanced Computer Science and Applications(IJACSA), 14(11), 2023.
-http://dx.doi.org/10.14569/IJACSA.2023.01411142
-```
-<!-- # Usage
-LoRA trained model is uploaded to [Hugging Face](https://huggingface.co/gr33nr1ng3r/Mukh-Oboyob).
-To use that
+## Inference using Huggingface.
+Pretrained model is uploaded to [Hugging Face](https://huggingface.co/gr33nr1ng3r/Mukh-Oboyob).
+To run from Huggingface, use the code snippet below.
 ```py
 from diffusers import DiffusionPipeline
 device="cuda"
@@ -71,4 +62,16 @@ prompt = "মেয়েটির কালো চুল ছিল। মেয়ে
 image = pipeline(prompt, num_inference_steps=200, guidance_scale=7.5,height=128,width=128).images[0]
 image
 
-``` -->
+```
+Example google colab notebook : https://colab.research.google.com/drive/1QGoaVVr89htsOx4jndKC_89IQhd7ywmT?usp=sharing
+
+## Citation
+If you use my code in your work, please cite my paper.
+
+```
+Aloke Kumar Saha, Noor Mairukh Khan Arnob, Nakiba Nuren Rahman, Maria Haque, Shah Murtaza Rashid Al Masud and Rashik Rahman,
+“Mukh-Oboyob: Stable Diffusion and BanglaBERT enhanced Bangla Text-to-Face Synthesis”
+International Journal of Advanced Computer Science and Applications(IJACSA), 14(11), 2023.
+http://dx.doi.org/10.14569/IJACSA.2023.01411142
+```
+
