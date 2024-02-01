@@ -46,7 +46,7 @@ Codernob\Mukh-Oboyob\library codes\safety_checker.py
 Now you should be able to run `Codernob\Mukh-Oboyob\inference\sample inference.ipynb`
 
 ## Inference using Huggingface.
-Pretrained model is uploaded to [Hugging Face](https://huggingface.co/gr33nr1ng3r/Mukh-Oboyob).
+Alternatively you can use huggingface, pretrained model is uploaded to [Hugging Face](https://huggingface.co/gr33nr1ng3r/Mukh-Oboyob).
 To run from Huggingface, use the code snippet below.
 ```py
 from diffusers import DiffusionPipeline
