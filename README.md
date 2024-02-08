@@ -69,12 +69,19 @@ image
 Example google colab notebook : https://colab.research.google.com/drive/1QGoaVVr89htsOx4jndKC_89IQhd7ywmT?usp=sharing
 
 ## Citation
-If you use my code in your work, please cite my paper.
+If you use my code or ideas from my paper in your work, please cite my paper.
 
 ```
-@article{sahamukh,
-  title={Mukh-Oboyob: Stable Diffusion and BanglaBERT Enhanced Bangla Text-to-Face Synthesis},
-  author={Saha, Aloke Kumar and Arnob, Noor Mairukh Khan and Rahman, Nakiba Nuren and Haque, Maria and Al Masud, Shah Murtaza Rashid and Rahman, Rashik}
+@article{Saha2023,
+title = {Mukh-Oboyob: Stable Diffusion and BanglaBERT enhanced Bangla Text-to-Face Synthesis},
+journal = {International Journal of Advanced Computer Science and Applications},
+doi = {10.14569/IJACSA.2023.01411142},
+url = {http://dx.doi.org/10.14569/IJACSA.2023.01411142},
+year = {2023},
+publisher = {The Science and Information Organization},
+volume = {14},
+number = {11},
+author = {Aloke Kumar Saha and Noor Mairukh Khan Arnob and Nakiba Nuren Rahman and Maria Haque and Shah Murtaza Rashid Al Masud and Rashik Rahman}
 }
 ```
 
