@@ -1,6 +1,9 @@
 # Mukh-Oboyob
 Official Implementation of the IJACSA paper : Mukh-Oboyob: Stable Diffusion and BanglaBERT enhanced Bangla Text-to-Face Synthesis
 
+![image](https://github.com/Codernob/Mukh-Oboyob/assets/55651740/2184cf28-6cd2-4b60-aaca-73ed1ae95c04)
+
+
 ## Environment Setup
 Run the following commands on your anaconda environment.
 ```
