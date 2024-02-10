@@ -13,6 +13,7 @@ pip install transformers==4.29.2
 pip install matplotlib==3.7.2
 ```
 
+
 ## Library Modifications
 
 1. I modified the stable diffusion pipeline to load the `BanglaBERT`` text encoder along with setting the max sequence length to 150 (reason explained in my paper). So you have to take the file from
@@ -67,6 +68,10 @@ image
 
 ```
 Example google colab notebook : https://colab.research.google.com/drive/1QGoaVVr89htsOx4jndKC_89IQhd7ywmT?usp=sharing
+
+## Training
+Extract `metadata.jsonl` from `Mukh-Oboyob/dataset/celeba/train/metadata.zip` and place on `Mukh-Oboyob/dataset/celeba/train/`
+Now go to `Mukh-Oboyob/training script/` and run `train_text_to_image_lora.py`. 
 
 ## Citation
 If you use my code or ideas from my paper in your work, please cite my paper.
