@@ -16,7 +16,7 @@ pip install matplotlib==3.7.2
 
 ## Library Modifications
 
-1. I modified the stable diffusion pipeline to load the `BanglaBERT`` text encoder along with setting the max sequence length to 150 (reason explained in my paper). So you have to take the file from
+1. I modified the stable diffusion pipeline to load the `BanglaBERT` text encoder along with setting the max sequence length to 150 (reason explained in my paper). So you have to take the file from
 ```
 C:\Users\USER_NAME\anaconda3\envs\ENVIRONMENT_NAME\Lib\site-packages\diffusers\pipelines\stable_diffusion\pipeline_stable_diffusion.py
 ```
